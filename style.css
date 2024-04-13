@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    width: 3vw;
+    margin-left: 2vw;
+}
+.name {
+    display: inline;
+    position: absolute;
+    top: 1vh;
+    font-family: Playball;
+}
+li:hover {
+    cursor: pointer;
+}
+.uul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    position: relative;
+    bottom: 4vh;
+    right: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 5vw;
+}
+.uls {
+    list-style-type: none;
+    position: absolute;
+    left: 97vw;
+    border: 1px solid;
+    font-size: small;
+    display: none;
+}
+.lii {
+    border: solid 1px;
+}
+.lii:hover {
+    color: gray;
+}
+.con:hover .uls {
+    display: block;
+}
+.face {
+    width: 20vw;
+    position: absolute;
+    left: 75vw;
+}
+.des {
+    color: #ff6d87;
+    font-family: Nunito;
+}
+.hola {
+    font-family: Playball;
+}
+.but1 {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.3vh;
+    padding-top: 0.2vh;
+    border: solid 1px #ff7878;
+    border-radius: 0.2vw;
+    background-color: #ff6464;
+    color: white;
+}
+.but1:hover {
+    cursor: pointer;
+}
+.but2 {
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+    padding-bottom: 0.3vh;
+    padding-top: 0.2vh;
+    border: solid 1.5px black;
+    border-radius: 0.2vw;
+    background-color: white;
+    color: black;
+    margin-left: 1vw;
+}
+.but2:hover {
+    cursor: pointer;
+}
+.divv {
+    position: absolute;
+    left: 10vw;
+    top: 30vh;
+}
+b {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.psr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    position: relative;
+    top: 35vh;
+}
+.divs {
+    border: solid 0.1px;
+    justify-content: center;
+}
